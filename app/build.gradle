@@ -1,10 +1,14 @@
 apply plugin: 'com.android.application'
-
+repositories {
+    maven {
+        url "https://jcenter.bintray.com"
+    }
+}
 android {
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.ctr.template"
-        minSdkVersion 14
+        minSdkVersion 16
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
@@ -27,4 +31,13 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    implementation 'org.osmdroid:osmdroid-android:6.1.0'
+    //    implementation 'org.osmdroid:osmdroid-third-party:implementation 'org.osmdroid:osmdroid-third-party:
+
+    //implementation 'com.marvinlabs:android-slideshow-widget:0.4.0'
+    //implementation 'com.marvinlabs:android-slideshow-widget-picasso-plugin:0.4.0'
+//    implementation 'com.github.JakeWharton:ViewPagerIndicator:2.4.1'
+    //implementation 'com.dodola:blockindigo:1.0'
+    implementation 'ch.halcyon:squareprogressbar:1.6.4'
 }
