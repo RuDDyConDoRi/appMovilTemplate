@@ -246,6 +246,7 @@ public class FloatingButtonActivity extends AppCompatActivity {
         final CardView panel001 = customLayout.findViewById(R.id.panel001);
         final CardView panel002 = customLayout.findViewById(R.id.panel002);
         panel002.setVisibility(View.GONE);
+
         /*
         final TextView sector = customLayout
                 .findViewById(R.id.input_ayudante_sector);
