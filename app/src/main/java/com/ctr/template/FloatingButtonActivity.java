@@ -250,6 +250,7 @@ public class FloatingButtonActivity extends AppCompatActivity {
         /*
         final TextView sector = customLayout
                 .findViewById(R.id.input_ayudante_sector);
+                ************************************
         */
 
         Button btnQuitar = customLayout.findViewById(R.id.btnQuitar);
