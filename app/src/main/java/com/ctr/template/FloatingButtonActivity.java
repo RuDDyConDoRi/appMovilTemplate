@@ -248,7 +248,8 @@ public class FloatingButtonActivity extends AppCompatActivity {
         panel002.setVisibility(View.GONE);
         /*
         final TextView sector = customLayout
-                .findViewById(R.id.input_ayudante_sector);*/
+                .findViewById(R.id.input_ayudante_sector);
+        */
 
         Button btnQuitar = customLayout.findViewById(R.id.btnQuitar);
         btnQuitar.setOnClickListener(new View.OnClickListener() {
