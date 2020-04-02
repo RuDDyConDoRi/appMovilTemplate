@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
     @OnClick(R.id.txtPrueba)
     public void mostrarMensaje() {
         Toast.makeText(MainActivity.this, "Mostrando", Toast.LENGTH_SHORT).show();
+        title.setText("Cambiando Texto");
     }
 
 }
